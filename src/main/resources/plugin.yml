@@ -1,0 +1,9 @@
+name: LoveYou
+version: '1.0'
+main: org.insignificxnt.ly.LoveYou
+authors: [ insignificxnt ]
+description: just another plugin
+commands:
+  nina:
+    usage: /nina
+
