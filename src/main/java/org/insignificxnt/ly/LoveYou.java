@@ -11,7 +11,7 @@ public final class LoveYou extends JavaPlugin {
     @Override
     public void onEnable() {
         getCommand("/nina").setExecutor(new LoveYouCommand(this));
-        config.addDefault("message", "nina i love you");
+        config.addDefault("message", "any message");
         saveConfig();
 
 
